@@ -2,7 +2,7 @@
 
 First, deploy the Tailwind Traders application onto a Kubernetes cluster. Deployment steps and automation can be found here:
 
-[https://github.com/microsoft/ignite-learning-paths-training-ops/tree/master/deployment](https://github.com/microsoft/ignite-learning-paths-training-ops/tree/master/deployment)
+[https://github.com/microsoft/ignite-learning-paths-training-ops/tree/main/deployment](https://github.com/microsoft/ignite-learning-paths-training-ops/tree/main/deployment)
 
 Once completed, fork this repo into your own GitHub account and clone to your development system.
 
