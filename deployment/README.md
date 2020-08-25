@@ -56,7 +56,7 @@ There are two ways to kick off a deployment (pick one).
 
 Use this button to deploy the Tailwind Traders application.
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2Fignite-learning-paths-training-ops%2Fmain%2Fdeployment%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fneilpeterson%2Fignite-learning-paths-training-ops%2Fmain%2Fdeployment%2Fazuredeploy.json" target="_blank">
  <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
@@ -94,7 +94,7 @@ az group create --name RESOURCE_GROUP_NAME --location PREFERRED_AZURE_LOCATION -
 3) Kick off the deploy:
 
 ```
-az group deployment create --resource-group RESOURCE_GROUP_NAME --template-uri https://raw.githubusercontent.com/microsoft/ignite-learning-paths-training-ops/main/deployment/azuredeploy.json  --parameters @params.json --subscription YOUR_SUBSCRIPTION_NAME
+az group deployment create --resource-group RESOURCE_GROUP_NAME --template-uri https://raw.githubusercontent.com/neilpeterson/ignite-learning-paths-training-ops/main/deployment/azuredeploy.json  --parameters @params.json --subscription YOUR_SUBSCRIPTION_NAME
 ```
 
 ## Connect to deployment
