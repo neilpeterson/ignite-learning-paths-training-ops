@@ -1,5 +1,5 @@
 {
-	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+	"$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"servicePrincipalId": {
@@ -22,7 +22,7 @@
 		"omsWorkspaceId": "[concat('/subscriptions/', subscription().subscriptionId,'/resourceGroups/',resourceGroup().name,'/providers/Microsoft.OperationalInsights/workspaces/', variables('workspaceName'))]",
 		"sqlServerAdministratorLogin": "sqladmin",
 		"sqlServerAdministratorLoginPassword": "Password2020!",
-		"aksVersion": "1.17.9",
+		"aksVersion": "1.15.11",
 		"pgversion": "10",
 		"components_app_insights_name": "tt-app-insights"
 
@@ -69,7 +69,7 @@
 		{
 			"type": "Microsoft.ContainerService/managedClusters",
 			"name": "[variables('aks_name')]",
-			"apiVersion": "2019-02-01",
+			"apiVersion": "2020-06-01",
 			"location": "[resourceGroup().location]",
 			"tags": {},
 			"properties": {
