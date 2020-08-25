@@ -34,7 +34,7 @@
 		"identityName": "bootstrap-creds",
 		"contributorRoleDefinitionId": "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Authorization/roleDefinitions/', 'b24988ac-6180-42a0-ab88-20f7382dd24c')]",
 		"containerName": "logs",
-		"deploymentImage": "neilpeterson/itt-bootstrap:2.0",
+		"deploymentImage": "neilpeterson/itt-bootstrap:3.0",
 		"sourceRepo": "https://github.com/neilpeterson/ignite-learning-paths-training-ops.git",
 		"entrypoint": "/deployment/deploy.sh",
 		"statusPageName": "[concat('status-',uniqueString(resourceGroup().id))]"
